@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		953B506B218A8EAD00D38923 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B506A218A8EAD00D38923 /* AppDelegate.swift */; };
-		953B506D218A8EAD00D38923 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B506C218A8EAD00D38923 /* ViewController.swift */; };
+		953B506D218A8EAD00D38923 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B506C218A8EAD00D38923 /* SplashViewController.swift */; };
 		953B5070218A8EAD00D38923 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953B506E218A8EAD00D38923 /* Main.storyboard */; };
 		953B5072218A8EAF00D38923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 953B5071218A8EAF00D38923 /* Assets.xcassets */; };
 		953B5075218A8EAF00D38923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953B5073218A8EAF00D38923 /* LaunchScreen.storyboard */; };
 		953B5080218A8EAF00D38923 /* tolls_ioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B507F218A8EAF00D38923 /* tolls_ioTests.swift */; };
 		953B508B218A8EAF00D38923 /* tolls_ioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B508A218A8EAF00D38923 /* tolls_ioUITests.swift */; };
+		953B5099218AD7E700D38923 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B5098218AD7E700D38923 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		953B5067218A8EAD00D38923 /* tolls.io.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tolls.io.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		953B506A218A8EAD00D38923 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		953B506C218A8EAD00D38923 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		953B506C218A8EAD00D38923 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		953B506F218A8EAD00D38923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		953B5071218A8EAF00D38923 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		953B5074218A8EAF00D38923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		953B5086218A8EAF00D38923 /* tolls.ioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tolls.ioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		953B508A218A8EAF00D38923 /* tolls_ioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tolls_ioUITests.swift; sourceTree = "<group>"; };
 		953B508C218A8EAF00D38923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		953B5098218AD7E700D38923 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				953B506A218A8EAD00D38923 /* AppDelegate.swift */,
-				953B506C218A8EAD00D38923 /* ViewController.swift */,
+				953B506C218A8EAD00D38923 /* SplashViewController.swift */,
 				953B506E218A8EAD00D38923 /* Main.storyboard */,
 				953B5071218A8EAF00D38923 /* Assets.xcassets */,
 				953B5073218A8EAF00D38923 /* LaunchScreen.storyboard */,
 				953B5076218A8EAF00D38923 /* Info.plist */,
+				953B5098218AD7E700D38923 /* HomeViewController.swift */,
 			);
 			path = tolls.io;
 			sourceTree = "<group>";
@@ -256,8 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				953B506D218A8EAD00D38923 /* ViewController.swift in Sources */,
+				953B506D218A8EAD00D38923 /* SplashViewController.swift in Sources */,
 				953B506B218A8EAD00D38923 /* AppDelegate.swift in Sources */,
+				953B5099218AD7E700D38923 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
