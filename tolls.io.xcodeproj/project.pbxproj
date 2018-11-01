@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		953B506B218A8EAD00D38923 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B506A218A8EAD00D38923 /* AppDelegate.swift */; };
+		953B506D218A8EAD00D38923 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B506C218A8EAD00D38923 /* ViewController.swift */; };
+		953B5070218A8EAD00D38923 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953B506E218A8EAD00D38923 /* Main.storyboard */; };
+		953B5072218A8EAF00D38923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 953B5071218A8EAF00D38923 /* Assets.xcassets */; };
+		953B5075218A8EAF00D38923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953B5073218A8EAF00D38923 /* LaunchScreen.storyboard */; };
+		953B5080218A8EAF00D38923 /* tolls_ioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B507F218A8EAF00D38923 /* tolls_ioTests.swift */; };
+		953B508B218A8EAF00D38923 /* tolls_ioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953B508A218A8EAF00D38923 /* tolls_ioUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		953B507C218A8EAF00D38923 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 953B505F218A8EAD00D38923 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 953B5066218A8EAD00D38923;
+			remoteInfo = tolls.io;
+		};
+		953B5087218A8EAF00D38923 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 953B505F218A8EAD00D38923 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 953B5066218A8EAD00D38923;
+			remoteInfo = tolls.io;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		953B5067218A8EAD00D38923 /* tolls.io.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tolls.io.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		953B506A218A8EAD00D38923 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		953B506C218A8EAD00D38923 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		953B506F218A8EAD00D38923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		953B5071218A8EAF00D38923 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		953B5074218A8EAF00D38923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		953B5076218A8EAF00D38923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		953B507B218A8EAF00D38923 /* tolls.ioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tolls.ioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		953B507F218A8EAF00D38923 /* tolls_ioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tolls_ioTests.swift; sourceTree = "<group>"; };
+		953B5081218A8EAF00D38923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		953B5086218A8EAF00D38923 /* tolls.ioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tolls.ioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		953B508A218A8EAF00D38923 /* tolls_ioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tolls_ioUITests.swift; sourceTree = "<group>"; };
+		953B508C218A8EAF00D38923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		953B5064218A8EAD00D38923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953B5078218A8EAF00D38923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953B5083218A8EAF00D38923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		953B505E218A8EAD00D38923 = {
+			isa = PBXGroup;
+			children = (
+				953B5069218A8EAD00D38923 /* tolls.io */,
+				953B507E218A8EAF00D38923 /* tolls.ioTests */,
+				953B5089218A8EAF00D38923 /* tolls.ioUITests */,
+				953B5068218A8EAD00D38923 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		953B5068218A8EAD00D38923 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				953B5067218A8EAD00D38923 /* tolls.io.app */,
+				953B507B218A8EAF00D38923 /* tolls.ioTests.xctest */,
+				953B5086218A8EAF00D38923 /* tolls.ioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		953B5069218A8EAD00D38923 /* tolls.io */ = {
+			isa = PBXGroup;
+			children = (
+				953B506A218A8EAD00D38923 /* AppDelegate.swift */,
+				953B506C218A8EAD00D38923 /* ViewController.swift */,
+				953B506E218A8EAD00D38923 /* Main.storyboard */,
+				953B5071218A8EAF00D38923 /* Assets.xcassets */,
+				953B5073218A8EAF00D38923 /* LaunchScreen.storyboard */,
+				953B5076218A8EAF00D38923 /* Info.plist */,
+			);
+			path = tolls.io;
+			sourceTree = "<group>";
+		};
+		953B507E218A8EAF00D38923 /* tolls.ioTests */ = {
+			isa = PBXGroup;
+			children = (
+				953B507F218A8EAF00D38923 /* tolls_ioTests.swift */,
+				953B5081218A8EAF00D38923 /* Info.plist */,
+			);
+			path = tolls.ioTests;
+			sourceTree = "<group>";
+		};
+		953B5089218A8EAF00D38923 /* tolls.ioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				953B508A218A8EAF00D38923 /* tolls_ioUITests.swift */,
+				953B508C218A8EAF00D38923 /* Info.plist */,
+			);
+			path = tolls.ioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		953B5066218A8EAD00D38923 /* tolls.io */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 953B508F218A8EAF00D38923 /* Build configuration list for PBXNativeTarget "tolls.io" */;
+			buildPhases = (
+				953B5063218A8EAD00D38923 /* Sources */,
+				953B5064218A8EAD00D38923 /* Frameworks */,
+				953B5065218A8EAD00D38923 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tolls.io;
+			productName = tolls.io;
+			productReference = 953B5067218A8EAD00D38923 /* tolls.io.app */;
+			productType = "com.apple.product-type.application";
+		};
+		953B507A218A8EAF00D38923 /* tolls.ioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 953B5092218A8EAF00D38923 /* Build configuration list for PBXNativeTarget "tolls.ioTests" */;
+			buildPhases = (
+				953B5077218A8EAF00D38923 /* Sources */,
+				953B5078218A8EAF00D38923 /* Frameworks */,
+				953B5079218A8EAF00D38923 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				953B507D218A8EAF00D38923 /* PBXTargetDependency */,
+			);
+			name = tolls.ioTests;
+			productName = tolls.ioTests;
+			productReference = 953B507B218A8EAF00D38923 /* tolls.ioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		953B5085218A8EAF00D38923 /* tolls.ioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 953B5095218A8EAF00D38923 /* Build configuration list for PBXNativeTarget "tolls.ioUITests" */;
+			buildPhases = (
+				953B5082218A8EAF00D38923 /* Sources */,
+				953B5083218A8EAF00D38923 /* Frameworks */,
+				953B5084218A8EAF00D38923 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				953B5088218A8EAF00D38923 /* PBXTargetDependency */,
+			);
+			name = tolls.ioUITests;
+			productName = tolls.ioUITests;
+			productReference = 953B5086218A8EAF00D38923 /* tolls.ioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		953B505F218A8EAD00D38923 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Don Sirivat";
+				TargetAttributes = {
+					953B5066218A8EAD00D38923 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					953B507A218A8EAF00D38923 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 953B5066218A8EAD00D38923;
+					};
+					953B5085218A8EAF00D38923 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 953B5066218A8EAD00D38923;
+					};
+				};
+			};
+			buildConfigurationList = 953B5062218A8EAD00D38923 /* Build configuration list for PBXProject "tolls.io" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 953B505E218A8EAD00D38923;
+			productRefGroup = 953B5068218A8EAD00D38923 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				953B5066218A8EAD00D38923 /* tolls.io */,
+				953B507A218A8EAF00D38923 /* tolls.ioTests */,
+				953B5085218A8EAF00D38923 /* tolls.ioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		953B5065218A8EAD00D38923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953B5075218A8EAF00D38923 /* LaunchScreen.storyboard in Resources */,
+				953B5072218A8EAF00D38923 /* Assets.xcassets in Resources */,
+				953B5070218A8EAD00D38923 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953B5079218A8EAF00D38923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953B5084218A8EAF00D38923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		953B5063218A8EAD00D38923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953B506D218A8EAD00D38923 /* ViewController.swift in Sources */,
+				953B506B218A8EAD00D38923 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953B5077218A8EAF00D38923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953B5080218A8EAF00D38923 /* tolls_ioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953B5082218A8EAF00D38923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953B508B218A8EAF00D38923 /* tolls_ioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		953B507D218A8EAF00D38923 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 953B5066218A8EAD00D38923 /* tolls.io */;
+			targetProxy = 953B507C218A8EAF00D38923 /* PBXContainerItemProxy */;
+		};
+		953B5088218A8EAF00D38923 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 953B5066218A8EAD00D38923 /* tolls.io */;
+			targetProxy = 953B5087218A8EAF00D38923 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		953B506E218A8EAD00D38923 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				953B506F218A8EAD00D38923 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		953B5073218A8EAF00D38923 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				953B5074218A8EAF00D38923 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		953B508D218A8EAF00D38923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		953B508E218A8EAF00D38923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		953B5090218A8EAF00D38923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BWJ7S75KT;
+				INFOPLIST_FILE = tolls.io/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donsirivat.tolls-io";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		953B5091218A8EAF00D38923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BWJ7S75KT;
+				INFOPLIST_FILE = tolls.io/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donsirivat.tolls-io";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		953B5093218A8EAF00D38923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BWJ7S75KT;
+				INFOPLIST_FILE = tolls.ioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donsirivat.tolls-ioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tolls.io.app/tolls.io";
+			};
+			name = Debug;
+		};
+		953B5094218A8EAF00D38923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BWJ7S75KT;
+				INFOPLIST_FILE = tolls.ioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donsirivat.tolls-ioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tolls.io.app/tolls.io";
+			};
+			name = Release;
+		};
+		953B5096218A8EAF00D38923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BWJ7S75KT;
+				INFOPLIST_FILE = tolls.ioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donsirivat.tolls-ioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tolls.io;
+			};
+			name = Debug;
+		};
+		953B5097218A8EAF00D38923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BWJ7S75KT;
+				INFOPLIST_FILE = tolls.ioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donsirivat.tolls-ioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tolls.io;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		953B5062218A8EAD00D38923 /* Build configuration list for PBXProject "tolls.io" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953B508D218A8EAF00D38923 /* Debug */,
+				953B508E218A8EAF00D38923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		953B508F218A8EAF00D38923 /* Build configuration list for PBXNativeTarget "tolls.io" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953B5090218A8EAF00D38923 /* Debug */,
+				953B5091218A8EAF00D38923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		953B5092218A8EAF00D38923 /* Build configuration list for PBXNativeTarget "tolls.ioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953B5093218A8EAF00D38923 /* Debug */,
+				953B5094218A8EAF00D38923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		953B5095218A8EAF00D38923 /* Build configuration list for PBXNativeTarget "tolls.ioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				953B5096218A8EAF00D38923 /* Debug */,
+				953B5097218A8EAF00D38923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 953B505F218A8EAD00D38923 /* Project object */;
+}
